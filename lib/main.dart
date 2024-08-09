@@ -1,4 +1,3 @@
-import 'package:audio_session/audio_session.dart';
 import 'package:flutter/material.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
@@ -51,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> ais() async {
-    final session = await AudioSession.instance;
-    print(session);
+    // final session = await AudioSession.instance;
+    // print(session);
 
     final doc = pw.Document();
 

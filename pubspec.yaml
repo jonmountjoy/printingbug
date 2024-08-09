@@ -15,8 +15,8 @@ dependencies:
     sdk: flutter
 
   ## Sound
-  just_audio: ^0.9.39
-  audio_session: ^0.1.21
+  # just_audio: ^0.9.39
+  # audio_session: ^0.1.21
   printing: 5.13.1
   pdf: 3.11.0
 
